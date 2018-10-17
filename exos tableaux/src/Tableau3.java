@@ -1,6 +1,6 @@
 
 import java.util.*;
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class Tableau3 {
 
@@ -27,7 +27,8 @@ public class Tableau3 {
 		
 			for(int i = 0 ; i < tableau.length ; i++){
 				if (tableau[i] == valeurATrouver) {
-					System.out.println("Le tableau contient "+valeurATrouver);
+					System.out.println("Le tableau contient "+valeurATrouver+" à l'emplacement "+(i+1));
+					break;
 				}
 			}
 		
